@@ -35,7 +35,7 @@ class Joke extends Component {
           </button>
 
           <button onClick={this.toggleLock}>
-            <
+            <i
               className={`fas ${this.props.locked ? "fa-unlock" : "fa-lock"}`}
             />
           </button>
